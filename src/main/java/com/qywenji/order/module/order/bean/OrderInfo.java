@@ -22,7 +22,7 @@ public class OrderInfo {
     /*下单人openId*/
     private String openId;
     /*下单人昵称*/
-    private String nickName;
+    private String nickname;
     /*下单人电话*/
     private String phone;
     /*支付时间*/
@@ -77,12 +77,12 @@ public class OrderInfo {
         this.openId = openId;
     }
 
-    public String getNickName() {
-        return nickName;
+    public String getNickname() {
+        return nickname;
     }
 
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
     public String getPhone() {
